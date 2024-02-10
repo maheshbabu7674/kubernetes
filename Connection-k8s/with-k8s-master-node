@@ -1,9 +1,9 @@
 To connect to a Kubernetes master node, you typically use the `kubectl` command-line tool. Here's a basic example:
 
 ```bash
-kubectl config set-cluster my-cluster-name --server=https://your-kubernetes-master-url --certificate-authority=path/to/your/ca.crt
+kubectl config set-cluster <my-cluster-name> --server=https://your-kubernetes-master-url --certificate-authority=path/to/your/ca.crt
 kubectl config set-credentials my-user --client-certificate=path/to/your/client.crt --client-key=path/to/your/client.key
-kubectl config set-context my-context --cluster=my-cluster-name --user=my-user
+kubectl config set-context my-context --cluster=<my-cluster-name> --user=my-user
 kubectl config use-context my-context
 ```
 
