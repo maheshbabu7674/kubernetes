@@ -10,7 +10,7 @@ Here are some frequently used kubectl commands:
    - `kubectl get pods`: List all pods in the current namespace.
    - `kubectl describe pod <pod-name>`: Show details about a specific pod.
    - `kubectl create -f <pod-definition.yaml>`: Create a pod using a YAML file.
-   - `kubectl apply -f <pod-definition.yaml>`: To rub a YAML file for the creation of pod.
+   - `kubectl apply -f <pod-definition.yaml>`: To run a YAML file for the creation of pod.
    - `kubectl delete pod <pod-name>`: Delete a pod.
 
 3. **Service Management:**
